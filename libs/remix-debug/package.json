@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@remix-project/remix-astwalker": "^0.0.26",
+    "@remix-project/remix-astwalker": "^0.0.29",
     "@remix-project/remix-lib": "^0.4.31",
     "commander": "^2.19.0",
     "ethereumjs-block": "^2.2.2",
