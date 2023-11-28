@@ -14,7 +14,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@remix-project/remix-lib": "^0.4.31",
+    "@remix-project/remix-lib": "^0.5.41",
     "ansi-gray": "^0.1.1",
     "async": "^3.1.0",
     "body-parser": "^1.18.2",
@@ -29,7 +29,7 @@
     "express-ws": "^4.0.0",
     "merge": "^1.2.0",
     "time-stamp": "^2.0.0",
-    "web3": "^1.2.4"
+    "web3": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -38,7 +38,7 @@
     "@babel/preset-es2015": "latest",
     "@babel/preset-es2017": "latest",
     "@babel/preset-stage-0": "^7.0.0",
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^8.0.2",
     "babelify": "^10.0.0",
     "mocha": "^5.2.0"
   },
