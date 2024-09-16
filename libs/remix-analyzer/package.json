@@ -19,8 +19,8 @@
     }
   ],
   "dependencies": {
-    "@remix-project/remix-astwalker": "^0.0.26",
-    "@remix-project/remix-lib": "^0.4.31",
+    "@remix-project/remix-astwalker": "^0.0.87",
+    "@remix-project/remix-lib": "^0.5.64",
     "ethereumjs-block": "^2.2.2",
     "ethereumjs-tx": "^2.1.2",
     "ethereumjs-vm": "4.1.3"
