@@ -50,7 +50,7 @@
     "merge": "^1.2.0",
     "signale": "^1.4.0",
     "time-stamp": "^2.2.0",
-    "web3": "^1.2.4",
+    "web3": "^4.13.0",
     "winston": "^3.0.0"
   },
   "peerDependencies": {
