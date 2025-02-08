@@ -36,8 +36,8 @@
   "homepage": "https://github.com/ethereum/remix-project/tree/master/libs/remix-tests#readme",
   "dependencies": {
     "@remix-project/remix-lib": "^0.4.31",
-    "@remix-project/remix-simulator": "^0.1.9-beta.8",
-    "@remix-project/remix-solidity": "^0.3.32",
+    "@remix-project/remix-simulator": "^0.2.34",
+    "@remix-project/remix-solidity": "^0.5.20",
     "ansi-gray": "^0.1.1",
     "async": "^2.6.0",
     "change-case": "^3.0.1",
@@ -50,7 +50,7 @@
     "merge": "^1.2.0",
     "signale": "^1.4.0",
     "time-stamp": "^2.2.0",
-    "web3": "^1.2.4",
+    "web3": "^4.0.1",
     "winston": "^3.0.0"
   },
   "peerDependencies": {
