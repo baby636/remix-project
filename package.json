@@ -90,7 +90,9 @@
     "test-browser": "npm-run-all -lpr selenium make-mock-compiler serve browsertest",
     "watch": "watchify apps/remix-ide/src/index.js -dv -p browserify-reload -o apps/remix-ide/build/app.js --exclude solc",
     "reinstall": "rm ./node-modules/ -rf & rm package-lock.json & rm ./build/ -rf & npm install & npm run build",
-    "ganache-cli": "npx ganache-cli"
+    "ganache-cli": "npx ganache-cli",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserify": {
     "transform": [
@@ -157,7 +159,8 @@
     "signale": "^1.4.0",
     "time-stamp": "^2.2.0",
     "winston": "^3.3.3",
-    "ws": "^7.3.0"
+    "ws": "^7.3.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -281,5 +284,6 @@
     "yo-yo": "github:ioedeveloper/yo-yo",
     "yo-yoify": "^3.7.3",
     "@types/jest": "25.1.4"
-  }
+  },
+  "snyk": true
 }
